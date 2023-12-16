@@ -1,0 +1,46 @@
+baseURL = "https://docs.estk.me"
+languageCode = "zh-CN"
+defaultContentLanguage = "zh-Hans"
+
+title = "eSTK.me Docs"
+theme = "hugo-theme-learn"
+
+[params]
+  # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
+  # Useful to give opportunity to people to create merge request for your doc.
+  # See the config.toml file from this documentation site to have an example.
+  editURL = "https://github.com/estkme-group/estkme-docs/"
+  # Author of the site, will be used in meta information
+  author = "eSTK.me Group"
+  # Description of the site, will be used in meta information
+  description = "eSTK.me Docs"
+  # Disable search function. It will hide search bar
+  disableSearch = false
+  # A title for shortcuts in menu is set by default. Set this to true to disable it.
+  disableShortcutsTitle = false
+  # If set to false, a Home button will appear below the search bar on the menu.
+  # It is redirecting to the landing page of the current language if specified. (Default is "/")
+  disableLandingPageButton = false
+  # Hide breadcrumbs in the header and only show the current page title
+  disableBreadcrumb = true
+  # Hide Next and Previous page buttons normally displayed full height beside content
+  disableNextPrev = true
+  # Order sections in menu by "weight" or "title". Default to "weight"
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "blue"
+  # Change the title separator. Default to "::".
+  titleSeparator = "-"
+
+  contentCopyright = 'Licensed under CC-BY-SA 4.0 | Copyright 2023-Present eSTK.me Group'
+
+[Languages]
+[Languages.zh-hans]
+title = "eSTK.me 文档"
+weight = 1
+languageName = "简体中文"
+landingPageName = "<i class='fas fa-home'></i> 主页"
+
+[Languages.en]
+title = "eSTK.me Docs"
+weight = 2
+languageName = "English"
