@@ -1,6 +1,6 @@
 baseURL = "https://docs.estk.me"
 languageCode = "zh-CN"
-defaultContentLanguage = "zh-Hans"
+defaultContentLanguage = "zh-cn"
 
 title = "eSTK.me Docs"
 theme = "hugo-theme-learn"
@@ -33,11 +33,12 @@ theme = "hugo-theme-learn"
 
   contentCopyright = 'Licensed under CC-BY-SA 4.0 | Copyright 2023-Present eSTK.me Group'
 
-[Languages]
-[Languages.zh-hans]
+[Languages.zh-cn]
 title = "eSTK.me 文档"
 weight = 1
 languageName = "简体中文"
+
+[Languages.zh-cn.params]
 landingPageName = "<i class='fas fa-home'></i> 主页"
 
 [Languages.en]
