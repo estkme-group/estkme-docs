@@ -1,7 +1,4 @@
-+++
-title = "eSTK.me"
-date =  2023-12-16T23:01:40+08:00
-+++
+# eSTK.me Docs
 
 ## eSTK.me 是啥?
 
