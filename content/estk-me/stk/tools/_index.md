@@ -1,7 +1,7 @@
 +++
 title = "Tools"
 date =  2023-12-17T18:30:06+08:00
-weight = 10
+weight = 5
 +++
 
 eSTK.me 卡片提供的一些常用功能。

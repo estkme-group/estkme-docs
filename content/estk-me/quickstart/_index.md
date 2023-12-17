@@ -15,9 +15,9 @@ weight = 1
 
 ## 启用配置文件后插入到您的设备
 
-插入后，您将看到 `Hello World` 的提示，代表您已经**成功启用了新的 eSTK.me 卡**。  
+插入后，您将看到 `HelloWorld! eSTK.me` 的提示，代表您已经**成功启用了新的 eSTK.me 卡**。  
 此时您将可以在 STK 菜单中激活您的 License,使用系统内建的 STK 工具箱，进行卡管理。
 提示可以在 STK 菜单中的 `Hint Mode` 中关闭
 
 - [激活授权(可选)](./activate-lic)
-- [Hint Mode](../stk/hint)
+- [Hint Mode](../stk/settings/hint-mode)
