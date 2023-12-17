@@ -26,3 +26,7 @@ weight = 2
 {{% notice note %}}
 Virtual EID 功能默认仅针对 ISD-R 域有效，如果你需要覆盖 ECASD 域的 EID 读取行为，需要进一步参考 "[ECASD Mode](../ecasd-mode)"
 {{% /notice %}}
+
+{{% notice warning %}}
+Virtual EID 的设置值无法在 STK 菜单中获取，如果你需要读出，请参考 "[LPA 操作手册](../../../lpa-guide)"
+{{% /notice %}}
