@@ -7,7 +7,7 @@ weight = 2
 ## 配置虚拟 EID 的值
 
 配置一个虚拟的 EID 有很多理由，可能为了规避恶意软件的追踪，为了验证某种技术的可行性，或者仅仅是找乐子，此功能可以使 eUICC 管理软件 (LPA) 获取到用户指定的值而并非 eSE 中永久固化的序列号。  
-{{% notice note %}}
+{{% notice style="note" %}}
 需要注意的是，当与 Profile 下载服务器(SM-DP+)进行通信时，由于 GSMA PKI 证书系统的存在，虚拟 EID 无法生效，SM-DP+ 总是能获取到 eUICC 的真实 EID 序列号。
 {{% /notice %}}
 
@@ -23,10 +23,10 @@ weight = 2
 2. 弹出修改成功提示框
 3. 向终端设备发起重启 eSTK.me 本身的指令。
 
-{{% notice note %}}
+{{% notice style="note" %}}
 Virtual EID 功能默认仅针对 ISD-R 域有效，如果你需要覆盖 ECASD 域的 EID 读取行为，需要进一步参考 "[ECASD Mode](../ecasd-mode)"
 {{% /notice %}}
 
-{{% notice warning %}}
+{{% notice style="warning" %}}
 Virtual EID 的设置值无法在 STK 菜单中获取，如果你需要读出，请参考 "[LPA 操作手册](../../../lpa-guide)"
 {{% /notice %}}

@@ -3,35 +3,297 @@ languageCode = "zh-CN"
 defaultContentLanguage = "zh-cn"
 
 title = "eSTK.me Docs"
-theme = "hugo-theme-learn"
+theme = "hugo-theme-relearn"
 
 [params]
-  # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
-  # Useful to give opportunity to people to create merge request for your doc.
-  # See the config.toml file from this documentation site to have an example.
-  editURL = "https://github.com/estkme-group/estkme-docs/tree/main/content/"
-  # Author of the site, will be used in meta information
-  author = "eSTK.me Group"
-  # Description of the site, will be used in meta information
-  description = "eSTK.me Docs"
-  # Disable search function. It will hide search bar
-  disableSearch = false
-  # A title for shortcuts in menu is set by default. Set this to true to disable it.
-  disableShortcutsTitle = false
-  # If set to false, a Home button will appear below the search bar on the menu.
-  # It is redirecting to the landing page of the current language if specified. (Default is "/")
-  disableLandingPageButton = false
-  # Hide breadcrumbs in the header and only show the current page title
-  disableBreadcrumb = true
-  # Hide Next and Previous page buttons normally displayed full height beside content
-  disableNextPrev = true
-  # Order sections in menu by "weight" or "title". Default to "weight"
-  # Change default color scheme with a variant one. Can be "red", "blue", "green".
-  themeVariant = "blue"
-  # Change the title separator. Default to "::".
-  titleSeparator = "-"
+# If an option value is said to be not set, you can achieve the same behavior
+# by given it an empty string value.
 
-  contentCopyright = 'Licensed under CC-BY-SA 4.0 | Copyright 2023-Present eSTK.me Group'
+###############################################################################
+# Hugo
+# These options usually apply to other themes aswell.
+
+# The author of your site.
+# Default: not set
+# This will be used in HTML meta tags, the opengraph protocol and twitter
+# cards.
+# You can also set `author.email` if you want to publish this information.
+author = "eSTK.me Group"
+
+
+# The description of your site.
+# Default: not set
+# This is used for generating HTML meta tags, social media meta information
+# for the opengraph protocol and twitter cards.
+# This can be overridden in the page's frontmatter.
+description = "eSTK.me Docs"
+
+###############################################################################
+# Relearn Theme
+# These options are specific to the Relearn theme.
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Variants
+# These options set your color variant.
+
+# Used color variants.
+# Default: "auto"
+# This sets one or more color variants, available to your readers to choose
+# from. You can
+# - set a single value eg. "zen-light"
+# - an array like [ "neon", "learn" ]
+# - an array with options like [ { identifier = "neon" },{ identifier = "learn" } ]
+# The last form allows to set further options for each variant.
+# The `identifier` is mandatory. You can also set `name` which overrides the
+# value displayed in the variant selector.
+# If the array has more than one entry, a variant selector
+# is shown in the lower part of the menu. The first entry in the array is the
+# default variant, used for first time visitors.
+# The theme ships with the following variants: "relearn-bright",
+# "relearn-light", "relearn-dark", "zen-light", "zen-dark", "neon", "learn",
+# "blue", "green", "red". In addition you can use auto mode variants. See the
+# docs for a detailed explaination.
+# You can also define your own variants. See the docs how this works. Also,
+# the docs provide an interactive theme generator to help you with this task.
+themeVariant = [ "auto", "blue"]
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# General
+# These options are defining general, non visual behavior.
+
+# Avoid new asset URLs on build.
+# Default: false
+# By default JavaScript-files and CSS-files get a unique ID on each rebuild.
+# This makes sure, the user always has the latest version and not some stale
+# copy of his browser cache. Anyways, it can be desireable to turn this
+# off in certain circumstances. For example if you have Hugo's dev server
+# running. Also some proxies dislike this optimization.
+disableAssetsBusting = false
+
+# Avoid generator meta tags.
+# Default: false
+# Set this to true if you want to disable generation for generator meta tags
+# of Hugo and the theme in your HTML head. In tihs case also don't forget to
+# set Hugo's disableHugoGeneratorInject=true. Otherwise Hugo will generate a
+# meta tag into your home page anyways.
+disableGeneratorVersion = false
+
+# Avoid unique IDs.
+# Default: false
+# In various situations the theme generates non stable unique ids to be used
+# in HTML fragment links. This can be undesirable for example when testing
+# the output for changes. If you disable the random id generation, the theme
+# may not function correctly anymore.
+disableRandomIds = false
+
+# Multilanguage content.
+# Default: not set
+# If your pages contain further languages besides the main one used, add all
+# those auxiliary languages here. This will create a search index with
+# support for all used languages of your site.
+# This is handy for example if you are writing in Spanish but have lots of
+# source code on your page which typically uses English terminology.
+additionalContentLanguage = [ "en" ]
+
+# Additional code dependencies.
+# Default: See hugo.toml of the theme
+# The theme provides a mechanism to load further JavaScript and CSS
+# dependencies on demand only if they are needed. This comes in handy if you
+# want to add own shortcodes that depend on additional code to be loaded.
+# See the docs how this works.
+# [relearn.dependencies]
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Topbar
+# These options modify the topbar appearance.
+
+# Hide the table of contents button.
+# Default: false
+# If the TOC button is hidden, also the keyboard shortcut is disabled.
+# This can be overridden in the page's frontmatter.
+disableToc = true
+
+# Hide the breadcrumbs.
+# Default: false
+# If the breadcrumbs are hidden, the title of the displayed page will still be
+# shown in the topbar.
+disableBreadcrumb = true
+
+# Hide Next and Previous navigation buttons.
+# Default: false
+# If the navigation buttons are hidden, also the keyboard shortcuts are
+# disabled.
+disableNextPrev = true
+
+# The URL prefix to edit a page.
+# Default: not set
+# If set, an edit button will be shown in the topbar. If the button is hidden,
+# also the keyboard shortcuts are disabled. The given URL is prepended to the
+# relative file path of a the displayed page. The URL must end with a `/`.
+# This is useful if you wnat to give the opportunity for people to create merge
+#  request for your content.
+editURL = "https://github.com/estkme-group/estkme-docs/tree/main/content/"
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Menu
+# These options modify the menu apperance.
+
+# Hide the search box.
+# Default: false
+# If the searc box is sisabled, the search functionality is disabled too.
+# This will also cause the keyboard shortcut to be disabled and the dedicated
+# search page is not linked although it mighty be configured.
+disableSearch = false
+
+# Hide the Home entry.
+# Default: false
+# If shown, a Home button will appear below the search bar and the main menu.
+# It links to your the home page of the current language.
+disableLandingPageButton = false
+
+# The order of main menu submenus.
+# Default: "weight"
+# Submenus can be ordered by "weight", "title", "linktitle", "modifieddate",
+# "expirydate", "publishdate", "date", "length" or "default" (adhering to
+# Hugo's default sort order). This can be overridden in the pages frontmatter.
+ordersectionsby = "weight"
+
+# The initial expand state of submenus.
+# Default: not set
+# This controls whether submenus will be expanded (true), or collapsed (false)
+# in the menu. If not set, the first menu level is set to false, all others
+# levels are set to true. This can be overridden in the page's frontmatter.
+# If the displayed page has submenus, they will always been displayed expanded
+# regardless of this option.
+alwaysopen = false
+
+# Shows expander for submenus.
+# Default: false
+# If set to true, a submenu in the sidebar will be displayed in a collapsible
+# tree view and a clickable expander is set in front of the entry.
+# This can be overridden in the page's frontmatter.
+collapsibleMenu = true
+
+# Shows checkmarks for visited pages of the main menu.
+# Default: false
+# This also causes the display of the `Clear History` entry in the lower part
+# of the menu to remove all checkmarks. The checkmarks will also been removed
+# if you regenerate your site as the ids are not stable.
+showVisitedLinks = false
+
+# Hide heading above the shortcut menu.
+# Default: false
+# The title for the heading can be overwritten in your i18n files. See Hugo's
+# documentation how to do this.
+disableShortcutsTitle = false
+
+# Hide the language switcher.
+# Default: false
+# If you have more than one language configured, a language switcher is
+# displayed in the lower part of the menu. This opition lets you explicitly
+# turn this behavior off.
+disableLanguageSwitchingButton = false
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Hidden pages
+# These options configure how hidden pages are treated.
+# A page flagged as hidden, is only removed from the main menu if you are
+# currently not on this page or the hidden page is not part of current page's
+# ancestors. For all other functionality in Hugo a hidden page behaves like any
+# other page if not otherwise configured.
+
+# Hide hidden pages from search.
+# Default: false
+# Hides hidden pages from the suggestions of the search box and the dedicated
+# search page.
+disableSearchHiddenPages = false
+
+# Hide hidden pages for web crawlers.
+# Default: false
+# Avoids hidden pages from showing up in the sitemap and on Google (et all),
+# otherwise they may be indexed by search engines
+disableSeoHiddenPages = true
+
+# Hide hidden pages for taxonomies.
+# Default: false
+# Hides hidden pages from showing up on the taxonomy and terms pages. If this
+# reduces term counters to zero, an empty but not linked term page will be
+# created anyhow.
+disableTagHiddenPages = false
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Content
+# These options modify how your content is displayed.
+
+# Title separator.
+# Default: "::"
+# Changes the title separator used when concatenating the page title with the
+# site title. This is consistently used throughout the theme.
+titleSeparator = "-"
+
+# Breadcrumb separator.
+# Default: ">"
+# Changes the breadcrumb separator used in the topbars breadcrumb area and for
+# search results and term pages.
+breadcrumbSeparator = ">"
+
+# Hide the root breadcrumb.
+# Default: false
+# The root breadcrumb is usually the home page of your site. Because this is
+# always accessible by clicking on the logo, you may want to reduce clutter
+# by removing this from your breadcrumb.
+disableRootBreadcrumb = true
+
+# Hide breadcrumbs term pages.
+# Default: false
+# If you have lots of taxonomy terms, the term pages may seem cluttered with
+# breadcrumbs to you, so this is the option to turn off breadcrumbs on term
+# pages. Only the page title will then be shown on the term pages.
+disableTermBreadcrumbs = false
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Highlight
+# These options configure how code is displayed.
+
+# Hide copy-to-clipboard for inline code.
+# Default: false
+# This removes the copy-to-clipboard button from your inline code.
+disableInlineCopyToClipBoard = true
+
+# Always show copy-to-clipboard for block code.
+# Default: false
+# The theme only shows the copy-to-clipboard button if you hover over the code
+# block. Set this to true to disable the hover effect and always show the
+# button.
+disableHoverBlockCopyToClipBoard = false
+
+# Wrap for code blocks.
+# Default: true
+# By default lines of code blocks wrap around if the line is too long to be
+# displayed on screen. If you dislike this behavior, you can reconfigure it
+# here.
+# Note that lines always wrap in print mode regardless of this option.
+# This can be overridden in the page's frontmatter or given as a parameter to
+# individual code blocks.
+highlightWrap = true
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Images
+# These options configure how images are displayed.
+
+# Image effects.
+# See the documentation for how you can even add your own arbitrary effects to
+# the list.
+# All effects can be overridden in the page's frontmatter or thru URL parameter
+# given to the image. See the documentation for details.
+
+# Default: false
+imageEffects.border = true
+# Default: true
+imageEffects.lightbox = true
+# Default: false
+imageEffects.shadow = false
+
 
 [Languages.zh-cn]
 title = "eSTK.me 文档"

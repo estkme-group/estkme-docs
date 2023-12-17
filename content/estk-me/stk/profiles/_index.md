@@ -21,10 +21,10 @@ weight = 1
 - [设置昵称](./nickname)
 - [删除配置文件](./delete)
 
-{{% notice note %}}
+{{% notice style="note" %}}
 Profiles 功能目前仅能管理不大于15个配置文件，当 eSE 中存储了超过15个配置文件后，Profiles 功能无法保证正常工作，参考 “[LPA操作手册](../../lpa-guide)” 进行管理。
 {{% /notice %}}
 
-{{% notice info %}}
+{{% notice style="info" %}}
 管理 Profile 不支持禁用，因为完全关闭 Profile 会导致 STK 菜单无法访问，如果确实需要关闭全部配置文件，参考 “[LPA操作手册](../../lpa-guide)” 进行管理。
 {{% /notice %}}
