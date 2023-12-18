@@ -6,7 +6,7 @@ weight = 7
 
 ## 开启或者关闭欢迎语
 
-{{% notice style="note" %}}
+{{% notice style="note" title="注意" %}}
 本功能于 1.2.3.1 版本固件中加入。
 {{% /notice %}}
 

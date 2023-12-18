@@ -21,7 +21,7 @@ ARA-M 作为智能卡的一个特殊属性，用于在现代操作系统上控�
 2. 弹出修改成功提示框
 3. 向终端设备发起重启 eSTK.me 本身的指令。
 
-{{% notice style="note" %}}
+{{% notice style="note" title="注意" %}}
 当错误地修改了 ARA-M SHA-1 值，又恰好无法正常访问 STK 菜单，那么你需要构造如下 APDU 命令以通过 PCSC 读卡器来设置 ARA-M SHA-1 的值
 {{% /notice %}}
 

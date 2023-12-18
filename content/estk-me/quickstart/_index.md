@@ -6,7 +6,7 @@ weight = 1
 
 ## 第一个 Profile
 
-{{% notice style="note" %}}
+{{% notice style="note" title="注意" %}}
 **eSTK.me 的功能需要至少一个被激活的配置文件**，您如果在没激活配置文件就将卡片插入手机，您可能会看到 **“无SIM卡”** 提示。  
 {{% /notice %}}
 

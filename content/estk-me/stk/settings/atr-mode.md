@@ -7,7 +7,7 @@ weight = 3
 ## 配置卡片的 ATR 响应
 
 ATR是智能卡发送给终端的第一段数据，其中包含了从通信方式到数据结构的多种关键信息。
-{{% notice style="note" %}}
+{{% notice style="note" title="注意" %}}
 虽然 eSTK.me 具有完全自定义 ATR 的能力，但错误的 ATR 可以轻易的造成软件损坏甚至硬件永久损伤，最终用户仅可在经过安全测试的预设 ATR 数据中进行选择。
 {{% /notice %}}
 

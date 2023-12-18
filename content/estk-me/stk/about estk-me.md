@@ -7,7 +7,7 @@ weight = 20
 ## 关于卡片的信息
 
 这是一个信息展示页面，包含如下信息
-{{% notice style="note" %}}
+{{% notice style="note" title="注意" %}}
 ARA-M SHA-1 信息已在固件版本 1.2.4 后移除
 {{% /notice %}}
 
