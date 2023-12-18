@@ -18,7 +18,7 @@ theme = "hugo-theme-relearn"
 # This will be used in HTML meta tags, the opengraph protocol and twitter
 # cards.
 # You can also set `author.email` if you want to publish this information.
-author = "eSTK.me Group"
+author.name = "eSTK.me Group"
 
 
 # The description of your site.
