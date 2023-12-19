@@ -10,7 +10,7 @@ weight = 7
 本功能于 1.2.3.1 版本固件中加入。
 {{% /notice %}}
 
-Hint 用于在 eSTK.me 卡插入设备后提示用户卡片已被识别，用户将在重启设备或卡片插入时看到 `HelloWorld! eSTK.me` 的提示。  
+Hint 用于在 eSTK.me 插入设备后提示用户 eSTK.me 已被识别，用户将在重启设备或 eSTK.me 插入时看到 `HelloWorld! eSTK.me` 的提示。  
 配置 Hint 是一个可靠操作，这意味着：
 
 1. 你可以自由尝试该功能。

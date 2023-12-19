@@ -4,7 +4,7 @@ title = "eSTK.me 文档"
 
 ## eSTK.me 是啥?
 
-- eSTK.me 是我们团队打造的智能卡产品。
+- eSTK.me 是我们团队打造的 eUICC 产品。
 - 支持在不支持 eUICC 的平台使用，管理。
 - 支持固件升级。
 - 提供完善的文档支持(WIP)

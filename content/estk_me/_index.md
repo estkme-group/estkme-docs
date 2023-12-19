@@ -1,11 +1,11 @@
 +++
-title = "eSTK.me 卡"
+title = "eSTK.me"
 date =  2023-12-16T23:04:41+08:00
 +++
 
 ## eSTK.me 简介
 
-eSTK.me 卡是由 eSTK.me 团队打造的一款的在任何仅支持 UICC 的设备使用 eSIM 的可插拔智能卡，致力于通过 STK 实现对 eSIM profile 进行简单管理，并改善 eSIM 在各平台下的可用性。
+eSTK.me 是由 eSTK.me 团队打造的一款的在任何仅支持 UICC 的设备使用的可插拔 eUICC，致力于通过 STK 实现对 eUICC profile 进行简单管理，并改善 eUICC 在各平台下的可用性。
 
 ## [快速开始](./quickstart)
 
