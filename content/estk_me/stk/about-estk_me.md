@@ -13,8 +13,8 @@ License 信息与相关功能已在固件版本 1.2.5 后移除
 vEID 信息已在固件版本 1.2.5 中加入  
 {{% /notice %}}
 
-1. EID：eSE 的唯一序列号，~~可用于查询或申请 License 使用~~
-2. ~~ARA-M SHA-1：当前配置的 ARA-M 值，参考 “[ARA-M SHA-1](settings/ara-m-sha1)” 一章~~
-3. ~~License：当前 eSTK.me 授权情况~~
-4. vEID: 当前配置的 Virtual EID 值，参考 “[Virtual EID](settings/virtual-eid)” 一章
-5. Firmware：当前 eSTK.me 固件版本号
+- EID：eSE 的唯一序列号，~~可用于查询或申请 License 使用~~
+- ~~ARA-M SHA-1：当前配置的 ARA-M 值，参考 “[ARA-M SHA-1](settings/ara-m-sha1)” 一章~~
+- ~~License：当前 eSTK.me 授权情况~~
+- vEID: 当前配置的 Virtual EID 值，参考 “[Virtual EID](settings/virtual-eid)” 一章
+- Firmware：当前 eSTK.me 固件版本号
