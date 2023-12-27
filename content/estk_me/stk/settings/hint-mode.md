@@ -2,9 +2,14 @@
 title = "Hint Mode"
 date =  2023-12-17T21:54:11+08:00
 weight = 7
+hidden = true
 +++
 
 ## 开启或者关闭欢迎语
+
+{{% notice style="warning" %}}
+本功能于固件版本 1.2.5.1 中被更名为 [MOTD Mode](./motd-mode),现已废弃。  
+{{% /notice %}}
 
 {{% notice style="note" title="注意" %}}
 本功能于 1.2.3.1 版本固件中加入。
