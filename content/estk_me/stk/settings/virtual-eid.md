@@ -29,5 +29,5 @@ Virtual EID 功能默认仅针对 ISD-R 域有效，如果你需要覆盖 ECASD 
 
 {{% notice style="tip" %}}
 ~~Virtual EID 的设置值无法在 STK 菜单中获取，如果你需要读出，请参考 “[LPA 操作手册](estk_me/lpa-guide)”~~  
-Virtual EID 信息已在固件版本 1.2.5 中添加，如果你需要读出，请参考 “[About eSTK.me](../about-estk_me)”
+Virtual EID 信息在固件版本 1.2.5 中添加，如果你需要读出，请参考 “[About eSTK.me](../about-estk_me)”
 {{% /notice %}}

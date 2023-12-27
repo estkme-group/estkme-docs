@@ -6,7 +6,7 @@ weight = 10
 
 一些修改 eSTK.me 行为的功能。  
 {{% notice style="note" title="注意" %}}
-SKU Mode 功能已在固件版本 1.2.5 后移除  
+SKU Mode 功能在固件版本 1.2.5 后移除  
 {{% /notice %}}
 
 - [授予 APP 访问权限](./ara-m-sha1)

@@ -15,7 +15,11 @@ weight = 1
 
 ## 启用配置文件后插入到您的设备
 
-插入后，您将看到 `HelloWorld! eSTK.me` 的提示，代表您已经**成功启用了新的 eSTK.me**。  
+{{% notice style="note" title="注意" %}}
+eSTK.me 固件版本信息在固件版本 1.2.6 中加入
+{{% /notice %}}
+
+插入后，您将看到 `HelloWorld!` 的提示与当前 eSTK.me 的固件版本号，代表您已经**成功启用了新的 eSTK.me**。  
 此时您将可以在 STK 菜单中激活您的 License,使用系统内建的 STK 工具箱，进行管理。  
 提示可以在 STK 菜单中的 `MOTD Mode` 中关闭
 
