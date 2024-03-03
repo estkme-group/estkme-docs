@@ -11,6 +11,6 @@ eSTK.me致力于提供创新性的可移除eUICC体验。
 ## 推荐向导
 
 ### 快速启动
-- [我希望在iPhone、iPad或WindowsPhone上使用eSTK.me](./quickstart/stk.md)
-- [我希望在出厂时搭载Android 9及以上版本的智能手机上使用eSTK.me](./quickstart/omapi.md)
-- [我希望在Raspberry Pi、Windows PC、Linux SBC等智能硬件上管理eSTK.me](./quickstart/pcsc.md)
+- [我希望在iPhone、iPad或WindowsPhone上使用eSTK.me](./quickstart/stk-menu)
+- [我希望在出厂时搭载Android 9及以上版本的智能手机上使用eSTK.me](./quickstart/omapi)
+- [我希望在Raspberry Pi、Windows PC、Linux SBC等智能硬件上管理eSTK.me](./quickstart/pcsc)
