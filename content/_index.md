@@ -1,29 +1,16 @@
 +++
-title = "eSTK.me 文档"
+title = "eSTK.me 操作文档"
 +++
 
-## eSTK.me 是啥?
+## 欢迎查阅eSTK.me操作文档
 
-- eSTK.me 是我们团队打造的 eUICC 产品。
-- 支持在不支持 eUICC 的平台使用，管理。
-- 支持固件升级。
-- 提供完善的文档支持(WIP)
+eSTK.me致力于提供创新性的可移除eUICC体验。
 
-> “领先绝大多数商业实现，支持大陆国行 iOS 设备，功能机设备。”
+这个文档库包含了与eSTK COS相关的技术信息，位于左侧的导航栏可供于自由浏览，或者，跟随向导流程逐步探索。
 
-## LPAC ? LPA ?
+## 推荐向导
 
-- LPAC 是我们开发的一款开源的 LPA 管理器，功能和性能均在业内领先，目前并高速开发中。
-- LPAC 支持多种驱动，适应多种场景。
-- 全平台支持输出请求流级别的 Debug 模式。
-- 提供比较完善的 es9+ / es10 支持。
-
-> “相容商业实现，但是整体更好”
-
-### 致谢
-
-- 感谢所有人的支持！
-- 感谢各类脚本、客户端支持...感谢所有帮忙完善生态的大佬们！
-- 感谢为 eSTK.me 网站和文档添砖加瓦的朋友们.
-- 感谢提出有意义的建议和意见的朋友们.
-- 感谢 Telegram 群每一位帮助群友的朋友.
+### 快速启动
+- [我希望在iPhone、iPad或WindowsPhone上使用eSTK.me](./quickstart/stk.md)
+- [我希望在出厂时搭载Android 9及以上版本的智能手机上使用eSTK.me](./quickstart/omapi.md)
+- [我希望在Raspberry Pi、Windows PC、Linux SBC等智能硬件上管理eSTK.me](./quickstart/pcsc.md)
