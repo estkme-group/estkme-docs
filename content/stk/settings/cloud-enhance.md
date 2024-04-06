@@ -1,12 +1,12 @@
 +++
-title = "Remote LPA"
+title = "Cloud Enhance"
 date =  2023-12-17T21:54:11+08:00
-weight = 7
+weight = 2
 +++
 
-## 配置Remote LPA
+## 配置Cloud Enhance
 
-Remote LPA依赖位于互联网上的服务器工作，用户需要自行指定服务器地址，以及是否启用该功能。
+Cloud Enhance依赖位于互联网上的服务器工作，用户需要自行指定服务器地址，以及是否启用该功能。
 
 {{% notice style="tip" title="可靠操作" %}}
 1. 你可以自由尝试该功能。

@@ -1,7 +1,7 @@
 +++
 title = "ISD-R Mode"
 date =  2023-12-17T21:54:23+08:00
-weight = 4
+weight = 6
 +++
 
 ## 配置 ISD-R 域的工作模式

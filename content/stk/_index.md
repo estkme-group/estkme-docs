@@ -9,4 +9,4 @@ weight = 5
 - [Profiles](./profiles)
 - [Settings](./settings)
 - [Tools](./tools)
-- [About eSTK.me](./about-estk_me)
+- [About eSTK.me](./about)

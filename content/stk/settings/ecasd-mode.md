@@ -1,7 +1,7 @@
 +++
 title = "ECASD Mode"
 date =  2023-12-17T21:54:02+08:00
-weight = 5
+weight = 7
 +++
 
 ## 配置 ECASD 管理域的行为

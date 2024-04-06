@@ -1,7 +1,7 @@
 +++
 title = "MOTD Mode"
 date =  2023-12-17T21:54:11+08:00
-weight = 7
+weight = 4
 +++
 
 ## 开启或者关闭欢迎语

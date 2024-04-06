@@ -1,7 +1,7 @@
 +++
 title = "ATR Mode"
 date =  2023-12-17T21:53:52+08:00
-weight = 3
+weight = 5
 +++
 
 ## 配置 eSTK.me 的 ATR 响应

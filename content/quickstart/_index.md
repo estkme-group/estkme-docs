@@ -11,7 +11,7 @@ weight = 1
 {{% /notice %}}
 
 - [使用 Android 设备完成](./android)
-- [使用 PC 设备完成](./pc)
+- [使用 PC 设备完成](./pcsc)
 
 ## 启用配置文件后插入到您的设备
 
@@ -23,5 +23,4 @@ eSTK.me 固件版本信息在固件版本 1.2.6 中加入
 此时您将可以在 STK 菜单中激活您的 License,使用系统内建的 STK 工具箱，进行管理。  
 提示可以在 STK 菜单中的 `MOTD Mode` 中关闭
 
-- [~~激活授权(可选)~~](./activate-lic)
-- [MOTD Mode](../stk/settings/motd-mode)
+- [MOTD Mode](../stk/settings/motd)
