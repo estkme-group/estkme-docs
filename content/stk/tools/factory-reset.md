@@ -12,6 +12,8 @@ weight = 6
 3. 所有STK菜单可配置的功能均会被清除至出厂状态且先前的数据无法恢复。
 {{% /notice %}}
 
+该功能没有特别的流程，点选后会需要确认两次后才会重置。
+
 {{% notice style="tip" title="已下载的Profile" %}}
 恢复出厂设置不会影响已经下载的Profile
 {{% /notice %}}
