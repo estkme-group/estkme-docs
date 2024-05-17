@@ -93,7 +93,7 @@ disableRandomIds = false
 # support for all used languages of your site.
 # This is handy for example if you are writing in Spanish but have lots of
 # source code on your page which typically uses English terminology.
-additionalContentLanguage = [ "en" ]
+additionalContentLanguage = [ "en", "id" ]
 
 # Additional code dependencies.
 # Default: See hugo.toml of the theme
@@ -307,3 +307,8 @@ landingPageName = "<i class='fas fa-home'></i> 主页"
 title = "eSTK.me Docs"
 weight = 2
 languageName = "English"
+
+[Languages.id]
+title = "eSTK.me Docs"
+weight = 3
+languageName = "ID"
