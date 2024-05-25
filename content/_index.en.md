@@ -13,4 +13,4 @@ This documentation library contains technical information related to eSTK COS, w
 ### Quick start
 - [I want to use eSTK.me on my iPhone, iPad, or WindowsPhone](./quickstart/stk-menu)
 - [I want to use it on smartphones with Android 9 and above running from the factory eSTK.me](./quickstart/omapi)
-- [I want to manage eSTK.me on smart hardware such as Raspberry Pi, Windows PC, Linux SBC], etc.(./quickstart/pcsc)
+- [I want to manage eSTK.me on smart hardware such as Raspberry Pi, Windows PC, Linux SBC, etc.](./quickstart/pcsc)
