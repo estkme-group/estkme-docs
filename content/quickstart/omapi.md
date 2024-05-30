@@ -1,3 +1,9 @@
++++
+title = "Android OMAPI"
+date =  2023-12-17T00:17:46+08:00
+weight = 1
++++
+
 # 如何在安卓设备上使用eSTK
 ## 你应该准备一部出厂安卓版本在安卓9.0以上的设备和一张eSTK card。
 ## 本指南使用**EasyEUICC**操作**eSTK**中的Profile，你应当下载并安装**EasyEUICC**，[点击下载](https://gitea.angry.im/PeterCxy/OpenEUICC/releases/download/unpriv-beta02/app-unpriv-release.apk)。
