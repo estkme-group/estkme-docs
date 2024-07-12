@@ -1,6 +1,6 @@
 +++
 title = "Delete Profile"
-weight = 4
+weight = 14
 +++
 
 {{% notice style="warning" %}}

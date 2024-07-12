@@ -1,6 +1,6 @@
 +++
 title = "Set Nickname"
-weight = 3
+weight = 13
 +++
 
 {{% notice style="info" title="Limitation"%}}

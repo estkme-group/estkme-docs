@@ -1,7 +1,7 @@
 +++
 linkTitle = "ECASD Mode"
 title = "Set ECASD Mode"
-weight = 7
+weight = 17
 +++
 
 ## Configure ECASD domain accessibility

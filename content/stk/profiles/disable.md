@@ -1,6 +1,6 @@
 +++
 title = "Disable Profile"
-weight = 2
+weight = 12
 +++
 
 {{% notice style="info" %}}

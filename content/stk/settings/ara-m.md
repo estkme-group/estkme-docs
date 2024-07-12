@@ -1,7 +1,7 @@
 +++
 linkTitle = "ARA-M SHA-1"
 title = "Config ARA-M Slot"
-weight = 1
+weight = 11
 +++
 
 {{% notice style="note" title="Notice" %}}

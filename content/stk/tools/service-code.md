@@ -1,7 +1,7 @@
 +++
 linkTitle = "Service Code"
 title = "Service Code Challenge"
-weight = 5
+weight = 15
 +++
 
 ## Preform Service Code Challenge

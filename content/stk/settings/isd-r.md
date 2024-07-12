@@ -1,7 +1,7 @@
 +++
 linkTitle = "ISD-R Mode"
 title = "Set ISD-R Mode"
-weight = 6
+weight = 16
 +++
 
 {{% notice style="warning" title="Warning"%}}

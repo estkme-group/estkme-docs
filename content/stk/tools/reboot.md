@@ -1,6 +1,6 @@
 +++
 title = "Reboot"
-weight = 6
+weight = 16
 +++
 
 {{% notice style="info" title="Limitation"%}}

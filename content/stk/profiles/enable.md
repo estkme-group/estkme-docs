@@ -1,6 +1,6 @@
 +++
 title = "Enable Profile"
-weight = 1
+weight = 11
 +++
 
 ## Activate a new profile

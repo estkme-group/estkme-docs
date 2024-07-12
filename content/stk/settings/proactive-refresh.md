@@ -1,6 +1,6 @@
 +++
 title = "Proactive Refresh"
-weight = 8
+weight = 18
 +++
 
 ## Toggle Proactive Refresh

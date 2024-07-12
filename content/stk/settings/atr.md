@@ -1,7 +1,7 @@
 +++
 linkTitle = "ATR Mode"
 title = "Set ATR Mode"
-weight = 5
+weight = 15
 +++
 
 {{% notice style="warning" title="Warning"%}}

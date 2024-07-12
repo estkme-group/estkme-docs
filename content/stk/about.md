@@ -14,5 +14,6 @@ This page displays these information about your eSTK.me:
 - **EID**: The serial number of the eSE.
 - **Free NVRAM**: Remaining space in eSE occupied by profile or notification.
 - **SAS Number**: The SAS-UP number of the eSE.
-- **Serial**: The serial number of the eSTK.me.
-- **Firmware**: Firmware version on the eSTK.me.
+- **BL**: Bootloader version on the eSTK.me.
+- **FW**: Firmware version on the eSTK.me.
+- **SN**: The serial number of the eSTK.me.

@@ -1,7 +1,7 @@
 +++
 linkTitle = "Cloud Enhance"
 title = "Config Cloud Enhance"
-weight = 2
+weight = 12
 +++
 
 {{% notice style="note" title="Data usage warning" %}}

@@ -1,7 +1,7 @@
 +++
 linkTitle = "MOTD"
 title = "Set MOTD Mode"
-weight = 4
+weight = 14
 +++
 
 ## Toggle MOTD message

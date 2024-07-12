@@ -1,6 +1,6 @@
 +++
 title = "Bypass STK Menu"
-weight = 1
+weight = 11
 +++
 
 {{% notice style="note" title="Notice" %}}

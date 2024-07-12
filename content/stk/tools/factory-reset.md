@@ -1,6 +1,6 @@
 +++
 title = "Factory Reset"
-weight = 7
+weight = 17
 +++
 
 {{% notice style="note" title="Notice"%}}
