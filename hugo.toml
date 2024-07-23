@@ -303,3 +303,8 @@ languageName = "English"
 title = "eSTK.me Docs"
 weight = 2
 languageName = "Indonesia"
+
+[Languages.zh_CN]
+title = "eSTK.me 文档"
+weight = 3
+languageName = "简体中文"
