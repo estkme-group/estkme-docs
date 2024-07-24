@@ -5,7 +5,7 @@ weight = 11
 +++
 
 {{% notice style="note" title="注意" %}}
-要使用 lpac 你需要一个受支持的 PC/SC 阅读器，你可以运行 `lpac driver apdu list` 来检查这一点，如果支持的话你可以看到类似下面的输出：
+你需要一个受支持的 PC/SC 阅读器来使用 lpac，你可以运行 `lpac driver apdu list` 来检查这一点，如果支持的话你可以看到类似下面的输出：
 
 ```bash
 $ lpac driver apdu list
@@ -14,7 +14,7 @@ $ lpac driver apdu list
 
 {{% /notice %}}
 
-lpac 是一个**开源**的 LPA 软件你可以在 [这里](https://github.com/estkme-group/lpac/releases) 下载发布的版本。  
+lpac 是一个**开源**的 LPA 软件，你可以在 [这里](https://github.com/estkme-group/lpac/releases) 下载发布的版本。  
 在 [这里](https://github.com/estkme-group/lpac/blob/main/docs/USAGE.md) 了解 lpac 的更多用法。
 
 ## 使用 lpac 下载你的 eSIM 卡

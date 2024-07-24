@@ -6,13 +6,13 @@ weight = 12
 
 {{% notice style="note" title="数据流量使用警告" %}}
 Cloud Enhance 需要使用 eSIM 卡通过**蜂窝网络**访问互联网以连接到 Remote LPA 服务器。  
-通常，Wi-Fi **不能** 用作替代。
+通常，Wi-Fi **不能**用作替代。
 
 网络连接仅在 Cloud Enhance 进程活跃时建立。一旦该过程完成，连接将立刻断开。
 {{% /notice %}}
 
 {{% notice style="info" title="关于 Remote LPA 服务器" %}}
-Cloud Enhance 依赖**互联网上**的 Remote LPA 服务器。用户可以指定服务器地址以及是否使用该功能。  
+Cloud Enhance 依赖**因特网上**的 Remote LPA 服务器。用户可以指定服务器地址以及是否启用该功能。  
 Remote LPA 服务器的**源代码**在 **AGPLv3 协议**的条款下免费开放，你可以在 [这里](https://github.com/estkme-group/rlpa-server) 找到源代码。  
 你可以按需构建自己的 Remote LPA 服务器。
 {{% /notice %}}

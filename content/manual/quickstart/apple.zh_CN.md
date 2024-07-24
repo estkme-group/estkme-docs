@@ -7,7 +7,7 @@ weight = 13
 ## 在 Apple 设备上快速入门 eSTK.me
 
 由于技术原因，eSTK.me 在 Apple 设备上无法被第三方应用程序访问。  
-因此，Apple 设备上轻松下载 eSIM 卡的方法是通过 [Cloud Enhance](/manual/download/cloud-enhance)，但这需要**提前**安装一个 eSIM 卡。  
+因此，在 Apple 设备上轻松下载 eSIM 卡的唯一方法是通过 [Cloud Enhance](/manual/download/cloud-enhance)，但这需要**提前**安装一个 eSIM 卡。  
 
 你可以在 Android 设备上使用 EasyEUICC 或在电脑上使用 lpac 安装首个 eSIM 卡，更多信息请阅读：
 
@@ -24,6 +24,6 @@ Cloud Enhance 将连接到互联网以执行操作。
 有关更多信息，请阅读 [Cloud Enhance](/stk/settings/cloud-enhance/#disclaimer)
 {{% /notice %}}
 
-跟随以下指引以在 Apple 设备上通过 Cloud Enhance 下载更多 eSIM 设备。
+跟随以下指引以在 Apple 设备上通过 Cloud Enhance 下载更多 eSIM 卡。
 
 - [使用 Cloud Enhance 下载 eSIM 卡](/manual/download/cloud-enhance)
