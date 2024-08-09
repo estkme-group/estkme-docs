@@ -19,16 +19,16 @@ STK menu **may vary by device**, please enter the eSTK.me menu on your device fi
 ### 1. Config and Enable Cloud Enhance
 
 Cloud Enhance requires a Remote LPA server, here we use `rlpa.estk.me` provided by estk.me.  
-![imgs](01.png?height=35vh&classes=inline)![imgs](02.png?height=35vh&classes=inline)
+![imgs](01.png?height=35vh&classes=inline)![imgs](02.png?height=35vh&classes=inline)  
 
 After configuring the server address and enabling Cloud Enhance, you will need to **agree** to the disclaimer.  
 If all goes well, you will see `Remote LPA: Enable`.  
-![imgs](03.png?height=35vh&classes=inline)![imgs](04.png?height=35vh&classes=inline)
+![imgs](03.png?height=35vh&classes=inline)![imgs](04.png?height=35vh&classes=inline)  
 
 ### 2. Download your profile
 
 Press Download and enter your [AC code](/manual/activation-code).  
-![imgs](05.png?height=35vh&classes=inline)
+![imgs](05.png?height=35vh&classes=inline)  
 You'll receive a welcome message when you connect to the server, and a pop-up message will inform you when the download is complete.  
 
 Sit back and relax while the download process completes. **This may take a few moments**.  

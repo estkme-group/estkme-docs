@@ -16,8 +16,8 @@ STK menu **may vary by device**, please enter the eSTK.me menu on your device fi
 EasyEUICC access eSTK.me via **OMAPI**, you need to put EasyEUICC's ARA-M hash to eSTK.me's [ARA-M slot](/stk/settings/ara-m).  
 eSTK.me comes with EasyEUICC's ARA-M hash **by default**, this means it works right out of the box, you can add your own if you wish.  
 
-In this case we will add `2A2FA878BC7C3354C2CF82935A5945A3EDAE4AFA` to slot 1.
-![imgs](01.png?height=30vh&classes=inline)![imgs](02.png?height=30vh&classes=inline)
+In this case we will add `2A2FA878BC7C3354C2CF82935A5945A3EDAE4AFA` to slot 1.  
+![imgs](01.png?height=30vh&classes=inline)![imgs](02.png?height=30vh&classes=inline)  
 
 ## eSTK.me not detected by EasyEUICC?
 
@@ -29,7 +29,7 @@ If your device is not compatible with EasyEUICC, use lpac or Cloud Enhance to ma
 - [Use Cloud Enhance to download profiles](/manual/download/cloud-enhance)
 - [Use lpac to download profiles](/manual/download/lpac)
 
-![imgs](03.png?classes=inline)
+![imgs](03.png?classes=inline)  
 
 ## Install profiles with EasyEUICC
 
